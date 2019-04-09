@@ -1,8 +1,6 @@
 What is the output of this program?
 
-'use strict';
-
-var obj = {
+let obj = {
     bar: function(i) {console.log(this.baz + i);},
     baz: 12
 }

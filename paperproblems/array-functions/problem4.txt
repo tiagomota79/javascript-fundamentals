@@ -1,4 +1,6 @@
-var animals = [
+What is the output of this program?
+
+let animals = [
     {species: 'dog', name: 'Nacho'},
     {species: 'cat', name: 'Ramses'},
     {species: 'bunny',name: 'Flufftail'},
@@ -11,8 +13,5 @@ function isDog(animal) {
     return animal.species === 'dog';
 }
 
-animals.some(isDog)
-animals.every(isDog)
-
-
-
+console.log(animals.some(isDog));
+console.log(animals.every(isDog));

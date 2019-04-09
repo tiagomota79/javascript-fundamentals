@@ -1,5 +1,7 @@
-Rewrite this program so that it doesn't have a single function definition
-In other words, replace all the function definitions with anonymous functions
+Replace the function with an anonymous function.
+You will need to write a self executing function:
+Put your anonymous function within parentheses to immediately evaluate it (so you can call it immediately)
+Example: (function() {})(bob)
 
 function greet(x) {
     console.log("hello " + x);

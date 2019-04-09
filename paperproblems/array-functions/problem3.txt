@@ -1,4 +1,6 @@
-var animals = [
+What is the output of this program?
+
+let animals = [
     {species: 'dog', name: 'Nacho'},
     {species: 'cat', name: 'Ramses'},
     {species: 'bunny',name: 'Flufftail'},
@@ -7,7 +9,7 @@ var animals = [
     {species: 'possum', name: ''}
 ];
 
-var animalNames = animals.map(
+let animalNames = animals.map(
                     function(animal) {return animal.name});
 
 console.log(animalNames.join());

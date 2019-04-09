@@ -1,6 +1,6 @@
 What is the output of this program?
 
-var animals = [
+let animals = [
     {species: 'dog', name: 'Nacho'},
     {species: 'cat', name: 'Ramses'},
     {species: 'bunny',name: 'Flufftail'},
@@ -9,7 +9,7 @@ var animals = [
     {species: 'possum', name: ''}
 ];
 
-var dogs = animals.filter(
+let dogs = animals.filter(
                 function(animal)
                      {return animal.species === 'dog';});
 

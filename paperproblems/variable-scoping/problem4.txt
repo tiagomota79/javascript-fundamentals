@@ -1,14 +1,14 @@
 Which variables are in scope on the indicated line?
 
-var x = 5;
+let x = 5;
 function f() {
-    var y = 8;
+    let y = 8;
     function g() {
-        var z = 10;
+        let z = 10;
         function h() {
-            var p = "hello";
+            let p = "hello";
             function k() {
-                var b = "boom";
+                let b = "boom";
             }
             // Which variables are in scope on this line?
         }

@@ -4,9 +4,9 @@
 // Every call thereafter returns a number one greater than the last
 
 function f() {
-    var x = 0;  
-    x = x + 1;
-    return x;
+  let x = 0;
+  x = x + 1;
+  return x;
 }
 
 module.exports = f;

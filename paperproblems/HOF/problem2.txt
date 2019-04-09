@@ -1,13 +1,11 @@
 Someone has given you a function called map
-You don't know what it does, but there are clues at the bottom of this file
-Use these clues to describe what map is.
-Specifically:
+Describe:
  - How many parameters does it have
  - What are the types of the parameters
  - What does it do?
 
-var someNumbers = [1, 2, 3, 4];
-var someStrings = ["bob", "ERIC"];
+let someNumbers = [1, 2, 3, 4];
+let someStrings = ["bob", "ERIC"];
 
 function toUpperCase(x) {
     return x.toUpperCase();
