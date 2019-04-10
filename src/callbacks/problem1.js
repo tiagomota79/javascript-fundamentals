@@ -1,8 +1,9 @@
 // Modify this code to use the shout function to print HELLO after 2 seconds (2000ms)
-// There are no tests for this problem, try running it in the web browser console
+// print is a global function we added in the test file for this exercise. It works just like console.log, we added it for testing purposes
 
+// There is no need to modify this function
 function shout(x) {
-  console.log(x.toUpperCase());
+  print(x.toUpperCase());
 }
 
-setTimeout(() => shout('hello'), 2000);
+setTimeout('hi', 0);
