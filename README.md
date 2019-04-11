@@ -22,3 +22,16 @@ Leave it there, it is used to run the tests.
 
 When you start working on the problems in the src folder, you can run tests for a specific file by going in the terminal and using this command (replace with desired folder / file):  
 `npm test test/__proto__/problem1.js`
+
+Preferred order of completion:  
+proto  
+anonymous-functions  
+arrow-functions  
+callbacks  
+return  
+this  
+variable scoping  
+syntax-errors  
+conditional-operator  
+HOF  
+array-functions
