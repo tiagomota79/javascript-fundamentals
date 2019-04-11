@@ -1,4 +1,4 @@
-// Remove the if statements from these functions.
+// REMOVE IF STATEMENTS
 // Replace them with the conditional operator
 // The code of each function body should fit within one line
 

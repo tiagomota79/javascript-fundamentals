@@ -1,5 +1,5 @@
 // Remove the conditional operator from these functions
-// Replace them with if statements
+// USE IF STATEMENTS
 
 function iLike(x) {
   return x === 'chinese food' ? true : false;
