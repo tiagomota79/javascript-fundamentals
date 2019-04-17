@@ -8,3 +8,8 @@ function greet(x) {
 }
 
 greet(bob);
+
+let greet = function (x) {console.log('hello' + x)}
+greet('bob')
+
+(function (x) {console.log('hello ' + x)})('bob')
