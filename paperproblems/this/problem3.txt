@@ -13,3 +13,4 @@ let obj2 = {
 obj2.bar = obj.bar;
 obj2.bar();
 
+The output is the number 12. 

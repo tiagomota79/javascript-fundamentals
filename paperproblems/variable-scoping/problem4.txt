@@ -15,3 +15,4 @@ function f() {
 
     }
 }
+ p and b?

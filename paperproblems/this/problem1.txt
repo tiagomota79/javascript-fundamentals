@@ -28,3 +28,4 @@ function foo() {
 let obj = {bar: foo, baz: 8};
 obj.bar();
 
+The output is the number 8. obj.bar() calls the function foo, which logs this.baz. this refers to obj, and obj.baz is 8.

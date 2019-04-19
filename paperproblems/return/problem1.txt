@@ -7,3 +7,4 @@ function f() {
 
 console.log(f());
 
+The program outputs the number 5. Once the return statement is called, the function stops. Hence, the 'Hello!' string won't be logged.

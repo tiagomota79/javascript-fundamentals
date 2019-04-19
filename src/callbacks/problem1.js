@@ -6,4 +6,4 @@ function shout(x) {
   print(x.toUpperCase());
 }
 
-setTimeout('hi', 0);
+setTimeout(() => shout('hello'), 2000);

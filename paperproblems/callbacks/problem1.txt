@@ -10,15 +10,17 @@ setTimeout returns a number representing the id of the timeout, used to clear th
 - Problem -
 
 function g() {
-    console.log("Hello!")
+    console.log("Hello!") // Logs the string 'Hello!'
 }
 
 function f() {
-    setTimeout(g, 500);
+    setTimeout(g, 500); // Delays execution of function g for 500 miliseconds
 }
 
 function h() {
-    setTimeout(f, 1000);
+    setTimeout(f, 1000); // Delays execution of function f for 1000 miliseconds
 }
 
-setTimeout(h, 200);
+setTimeout(h, 200); // Delays execution of function h for 200 miliseconds
+
+Combined, all these functions log the string 'Hello!' after a delay of 1700 miliseconds

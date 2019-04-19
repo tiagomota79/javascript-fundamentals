@@ -10,3 +10,7 @@ function f(g) {
 }
 
 f(obj.bar);
+
+Nan
+Undefined
+??

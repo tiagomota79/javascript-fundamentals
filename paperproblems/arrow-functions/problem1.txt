@@ -9,18 +9,18 @@ b) x => return 10 // Error, can only use return in a function body (no function 
 
 Problems
 
-a) x => x + 1
+a) x => x + 1 // No syntax error, probable input: number, probable output: number
 
-b) x, y => x * y
+b) x, y => x * y // Syntax error
 
-c) x => { x * 2 }
+c) x => { x * 2 } Syntax error, no return. Probable input: number, probable output: number
 
-d) (x, z) => {console.log(z); return x * z}
+d) (x, z) => {console.log(z); return x * z} //  No syntax error, probable input: number, probable output: number
 
-e) x => console.log(z); return x * z
+e) x => console.log(z); return x * z // Syntax error: use of return
 
-f) (x) => x * 2
+f) (x) => x * 2 // No syntax error, probable input: number, probable output: number
 
-e) () => console.log("hello")
+e) () => console.log("hello") // No syntax error, no input, output is string
 
 When you're done, check all your answers in the developer console.

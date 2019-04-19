@@ -3,8 +3,8 @@
 // The first time it is called it returns 1
 // Every call thereafter returns a number one greater than the last
 
+let x = 0;
 function f() {
-  let x = 0;
   x = x + 1;
   return x;
 }

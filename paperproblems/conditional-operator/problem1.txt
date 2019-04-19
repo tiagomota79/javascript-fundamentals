@@ -5,3 +5,6 @@ function f(x) {
 }
 
 console.log(f(5));
+
+The output is number 9.
+The function would return 3 if x was smaller than 5. If not smaller than 5, it would return 4 if bigger than 8. If not bigger than 8, it would return 12 if identical to 6, otherwise, which is the case, it would return 9.

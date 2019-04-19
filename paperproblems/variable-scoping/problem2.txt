@@ -8,3 +8,8 @@ function f() {
 
 f();
 f();
+
+2
+2
+
+Since x is defined within the function, it's destroyed after the function is executed. So, the next time the function is called, x is recreated with the defined value within the function.

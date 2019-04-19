@@ -8,3 +8,4 @@ let obj = {
 let g = obj.bar;
 g();
 
+Undefined. In the context of the function called at line 4, there is no reference for this.

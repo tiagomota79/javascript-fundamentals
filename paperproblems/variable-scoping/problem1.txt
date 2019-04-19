@@ -9,3 +9,8 @@ function f() {
 
 f();
 f();
+
+2
+4
+
+The first execution of the function sets x to a new value of 2. The subsequent execution takes the updated value of x.

@@ -10,11 +10,13 @@ setInterval returns a number representing the id of the interval, used to clear 
 - Problem -
 
 function g() {
-    console.log("Hello!")
+    console.log("Hello!") // Logs the string 'Hello!"
 }
 
 function h() {
-    setInterval(g, 1000);
+    setInterval(g, 1000); // Sets an interval for the execution of the function g
 }
 
-setInterval(h, 1000);
+setInterval(h, 1000); // Sets an interval for the execution of the function h
+
+The program will log 'Hello!' after 1000 miliseconds, than logs one more 'Hello!' after each subsequent 1000 miliseconds - 2 in the first run, 3 in the third, 4 in the fourth, and so forth indefelitely.
