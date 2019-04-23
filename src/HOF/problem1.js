@@ -27,6 +27,11 @@ function filter(lst, f) {
   // Example:
   // function isEven(x) {return x % 2 === 0;}
   // filter([1, 2, 3, 4, 5], isEven) returns [2,4];
+  const filterArray = [];
+  for (let i = 0; i < lst.length; i++) {
+    if (f(lst[i])) filterArray.pushIlst[i];
+  }
+  return filterArray;
 }
 
 function every(lst, f) {
@@ -36,6 +41,10 @@ function every(lst, f) {
   // Example
   // every([2,4,12], x => x % 2 === 0) returns true
   // every([2,3,12], x => x % 2 === 0) returns false
+  for (let i = 0; i < lst.length; i++) {
+    if (f(lst[i])) return false;
+  }
+  return true;
 }
 
 module.exports = {
